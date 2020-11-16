@@ -36,10 +36,10 @@ a {
   letter-spacing: 0.02em;
 }
 li .link:hover,
-li .link:focus {
-  color: var(--accent-color);
-}
-.site-nav .link-current {
+li .link:focus,
+.site-nav .link-current,
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-color);
 }
 .site-nav .link {
@@ -52,10 +52,7 @@ li .link:focus {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.contacts:hover,
-.contacts:focus {
-  color: var(--accent-color);
-}
+
 body {
   font-family: Roboto, sans-serif;
 }
@@ -156,7 +153,7 @@ a[href="mailto:info@example.com"],
 a[href="tel:+380991111111"] {
   color: var(--primary-text-color);
 }
-.button span {
+.button {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -164,7 +161,7 @@ a[href="tel:+380991111111"] {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.button span:hover {
+.button:hover {
   color: var(--white-color);
 }
 .button:hover {
