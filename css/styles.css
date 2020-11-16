@@ -161,10 +161,12 @@ a[href="tel:+380991111111"] {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.button:hover {
+.button:hover,
+.button:focus {
   color: var(--white-color);
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
 }
 /* portfolio */
